@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean class="com.Spring_Demo.Springproject.Student" name="s1">
+ 	<property name="sid">
+ 		<value>101</value>
+	 </property>
+	 <property name="sname">
+	 	<value>Zainab</value>
+	 </property>
+	 <property name="scity">
+	 	<value>Nashik</value>
+	 </property>
+ </bean> 
+ 
+  <bean class="com.Spring_Demo.Springproject.Project" name="p1">
+ 	<property name="pid">
+ 		<value>201</value>
+	 </property>
+	 <property name="pname">
+	 	<value>Epass</value>
+	 </property>
+	 <property name="pdescription">
+	 	<value>Secure password</value>
+	 </property>
+ </bean> 
+ 
+ <bean class="com.Spring_Demo.Springproject.Employee" name="e1">
+ 	<property name="eid">
+ 		<value>301</value>
+	 </property>
+	 <property name="ename">
+	 	<value>Vaibhavi</value>
+	 </property>
+	 <property name="ecity">
+	 	<value>Pune</value>
+	 </property>
+	  <property name="esalaray">
+	 	<value>25000</value>
+	 </property>
+ </bean> 
+ 
+ </beans>
